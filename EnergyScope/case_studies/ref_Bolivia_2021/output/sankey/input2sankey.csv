@@ -1,0 +1,48 @@
+source,target,realValue,layerID,layerColor,layerUnit
+Oil,Non-energy demand,0.21,Oil,#8B008B,TWh
+Gas,Non-energy demand,1.55,Gas,#FFD700,TWh
+Prod. & Imp. Gasoline,Gasoline,18.32,Gasoline,#808080,TWh
+Gasoline,Mob priv,17.80,Gasoline,#808080,TWh
+Gasoline,Mob public,0.73,Gasoline,#808080,TWh
+Prod. & Imp. Diesel,Diesel,21.67,Diesel,#D3D3D3,TWh
+Diesel,Mob priv,9.34,Diesel,#D3D3D3,TWh
+Diesel,Mob public,0.44,Diesel,#D3D3D3,TWh
+Diesel,Freight,7.41,Diesel,#D3D3D3,TWh
+Diesel,Heat HT,3.81,Diesel,#D3D3D3,TWh
+Gas Prod,Gas,0.00,GAS,#FFD700,TWh
+Gas,Mob priv,6.36,GAS,#FFD700,TWh
+Gas,Mob public,0.38,GAS,#FFD700,TWh
+Gas,Elec,14.91,GAS,#FFD700,TWh
+Gas,Boilers,8.87,GAS,#FFD700,TWh
+Gas,Cooking urban,2.32,GAS,#FFD700,TWh
+Gas,Cooking rural,0.05,GAS,#FFD700,TWh
+LPG,Cooking urban,3.76,LPG,#FF7F50,TWh
+LPG,Cooking rural,2.04,LPG,#FF7F50,TWh
+LPG,Heat HT,0.23,LPG,#FF7F50,TWh
+Wind,Elec,0.12,Wind,#27AE34,TWh
+Hydro River,Elec,0.10,Hydro River,#0000FF,TWh
+Hydro Dam,Elec,3.13,Hydro Dam,#0000FF,TWh
+Biomass,Elec,1.52,Biomass,#CD853F,TWh
+Diesel,Elec,0.67,Diesel,#D3D3D3,TWh
+Solar,Elec,0.35,Solar,#FFFF00,TWh
+Solar,Dec. sto,0.00,Solar,#FFFF00,TWh
+Solar,Heat LT Dec,0.01,Solar,#FFFF00,TWh
+Oil,Boilers,0.02,Oil,#8B008B,TWh
+Oil,Cooking urban,0.03,Oil,#8B008B,TWh
+Oil,Cooking rural,0.00,Oil,#8B008B,TWh
+Oil,Freight,1.02,Oil,#8B008B,TWh
+Wood,Cooking urban,0.04,Wood,#CD853F,TWh
+Wood,Cooking rural,0.74,Wood,#CD853F,TWh
+Elec,Mob priv,0.02,Electricity,#00BFFF,TWh
+Elec,Freight,0.00,Electricity,#00BFFF,TWh
+Elec,Losses,1.87,Electricity,#00BFFF,TWh
+Elec,Elec demand,8.00,Electricity,#00BFFF,TWh
+Elec,Cooking urban,0.02,Electricity,#00BFFF,TWh
+Elec,Cooking rural,0.00,Electricity,#00BFFF,TWh
+Elec,Heat LT Dec,0.98,Electricity,#00BFFF,TWh
+Biomass,Bioethanol,0.54,Biomass,#CD853F,TWh
+Bioethanol,Gasoline,0.21,Gasoline,#808080,TWh
+Boilers,Dec. sto,0.00,Heat LT,#FA8072,TWh
+Boilers,Heat LT Dec,0.13,Heat LT,#FA8072,TWh
+Boilers,Heat HT,8.02,Heat HT,#DC143C,TWh
+Heat HT,Ind Heat Demand,9.60,Heat HT,#DC143C,TWh
