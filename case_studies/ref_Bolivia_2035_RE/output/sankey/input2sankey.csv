@@ -1,0 +1,40 @@
+source,target,realValue,layerID,layerColor,layerUnit
+Oil (1.7),Non-energy demand (2.4),0.29,Oil,#8B008B,TWh
+Gas (12.1),Non-energy demand (2.4),2.12,Gas,#FFD700,TWh
+Prod. & Imp. Gasoline (14.5),Gasoline (16.6),14.46,Gasoline (16.6),#808080,TWh
+Gasoline (16.6),Mob priv (34.2),15.90,Gasoline (16.6),#808080,TWh
+Gasoline (16.6),Mob public (1.5),0.66,Gasoline (16.6),#808080,TWh
+Prod. & Imp. Diesel (9.7),Diesel (15.7),9.67,Diesel (15.7),#D3D3D3,TWh
+Diesel (15.7),Mob priv (34.2),8.52,Diesel (15.7),#D3D3D3,TWh
+Diesel (15.7),Mob public (1.5),0.40,Diesel (15.7),#D3D3D3,TWh
+Diesel (15.7),Freight (9.4),6.76,Diesel (15.7),#D3D3D3,TWh
+Gas Prod,Gas,0.00,GAS,#FFD700,TWh
+Gas (12.1),Mob priv (34.2),5.68,GAS,#FFD700,TWh
+Gas (12.1),Mob public (1.5),0.34,GAS,#FFD700,TWh
+Gas (12.1),Boilers (4.0),3.96,GAS,#FFD700,TWh
+Wind (13.2),Elec (49.7),12.93,Wind (13.2),#27AE34,TWh
+Hydro River (0.3),Elec (49.7),0.30,Hydro River (0.3),#0000FF,TWh
+Hydro Dam (6.6),Elec (49.7),6.56,Hydro Dam (6.6),#0000FF,TWh
+Biomass (39.5),Elec (49.7),5.51,Biomass (39.5),#CD853F,TWh
+Solar (23.6),Elec (49.7),22.06,Solar (23.6),#FFFF00,TWh
+Solar (23.6),Dec. sto,0.00,Solar (23.6),#FFFF00,TWh
+Solar (23.6),HW (1.6),0.02,Solar (23.6),#FFFF00,TWh
+Geothermal (2.4),Elec (49.7),2.37,Geothermal (2.4),#FF0000,TWh
+Oil (1.7),Freight (9.4),1.40,Oil,#8B008B,TWh
+Elec (49.7),Mob priv (34.2),4.08,Electricity,#00BFFF,TWh
+Elec (49.7),Mob public (1.5),0.12,Electricity,#00BFFF,TWh
+Elec (49.7),Freight (9.4),1.21,Electricity,#00BFFF,TWh
+Elec (49.7),Losses (9.4),7.58,Electricity,#00BFFF,TWh
+Elec (49.7),Elec demand (11.3),11.31,Electricity,#00BFFF,TWh
+Solar (23.6),Losses (9.4),1.54,Solar (23.6),#FFFF00,TWh
+Wind (13.2),Losses (9.4),0.23,Wind (13.2),#27AE34,TWh
+Elec (49.7),Cooking urban (4.9),4.90,Electricity,#00BFFF,TWh
+Elec (49.7),Cooking rural (2.0),1.97,Electricity,#00BFFF,TWh
+Elec (49.7),HW (1.6),1.53,Electricity,#00BFFF,TWh
+Elec (49.7),Heat HT (13.2),9.48,Electricity,#00BFFF,TWh
+Biomass (39.5),Bioethanol (2.1),5.35,Biomass (39.5),#CD853F,TWh
+Bioethanol (2.1),Gasoline (16.6),2.10,Gasoline (16.6),#808080,TWh
+Biomass (39.5),Biodiesel (6.0),28.61,Biomass (39.5),#CD853F,TWh
+Biodiesel (6.0),Diesel (15.7),6.01,Diesel,#D3D3D3,TWh
+Boilers (4.0),Heat HT (13.2),3.68,Heat HT (13.2),#DC143C,TWh
+Heat HT (13.2),Ind Heat Demand (13.2),13.15,Heat HT (13.2),#DC143C,TWh
