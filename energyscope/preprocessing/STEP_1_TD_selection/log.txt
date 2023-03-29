@@ -1,0 +1,115 @@
+#				incremental	total
+#phase		seconds		memory		memory
+#execute	0.03125		5519296		5519296
+### TD_main.run:20(922)   option ...
+#execute	0		0		5519296
+### TD_main.run:21(943)   option ...
+#execute	0		0		5519296
+### TD_main.run:22(966)   option ...
+#execute	0		0		5519296
+### TD_main.run:25(1041)   solve ...
+#compile	0		1560		5520856
+##genmod times:
+##seq      seconds    cum. sec.    mem. inc.  name
+## 89            0            0            0  derstage
+## 93            0            0            0  sstatus
+## 107            0            0            0  DIMENSIONS
+## 108            0            0            0  DAYS
+## 109            0            0            0  Nbr_TD
+## 110            0            0        32792  Ndata
+## 111        0.875        0.875     13142208  Distance
+## 112            0        0.875            0  Selected_TD
+## 114            0        0.875      4202528  Cluster_matrix
+## 116     0.015625     0.890625      3233312  allocate_1TD_per_day
+## 118     0.015625      0.90625     14759016  other_TD_null
+## 120            0      0.90625        38400  limit_number_of_TD
+## 122     0.015625     0.921875      3187200  Euclidean_distance
+#genmod		0.921875	38595456	44116312
+#merge		0		2097160		46213472
+#collect	0.015625	37953104	84166576
+
+"option presolve 10;" used, but "option presolve 2;" would suffice.
+133590 variables, all binary
+133591 constraints, all linear; 400040 nonzeros
+	366 equality constraints
+	133225 inequality constraints
+1 linear objective; 132860 nonzeros.
+
+presolve results:
+	variables omitted:	0
+	constraints omitted:	0
+	ranges relaxed:		133225
+	bounds improved:	0
+	nba cycles:		1
+	bound row scans:	133591
+	row-scan updates:	0
+#presolve	0.125		30571568	114738144
+#output		0.140625	4194312		118932456
+#Total		1.23438
+CPLEX 20.1.0.0: mipdisplay=5
+mipinterval=1000
+mipgap=1e-6
+Reduced MIP has 133591 rows, 133590 columns, and 400040 nonzeros.
+Reduced MIP has 133590 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Found incumbent of value 0.000010 after 1.97 sec. (3198.84 ticks)
+Probing time = 0.25 sec. (39.26 ticks)
+Detecting symmetries...
+Reduced MIP has 133591 rows, 133590 columns, and 400040 nonzeros.
+Reduced MIP has 133590 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Probing time = 0.25 sec. (39.22 ticks)
+Clique table members: 133590.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 6 threads.
+Parallel mode: deterministic, using up to 1 threads for parallel tasks at root LP.
+Root relaxation solution time = 0.33 sec. (123.08 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000        0.0000           100.00%
+Found incumbent of value 0.000010 after 4.13 sec. (5193.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000        0.0000           100.00%
+Found incumbent of value 0.000003 after 4.13 sec. (5194.13 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000        0.0000           100.00%
+Found incumbent of value 0.000003 after 4.13 sec. (5194.64 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        cutoff              0.0000        0.0000        0 -113.30%
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        cutoff              0.0000        0.0000        0 -113.30%
+Elapsed time = 4.28 sec. (5268.75 ticks, tree = 0.01 MB)
+
+Root node processing (before b&c):
+  Real time             =    4.30 sec. (5270.53 ticks)
+Parallel b&c, 6 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    4.30 sec. (5270.53 ticks)
+CPLEX 20.1.0.0: optimal integer solution; objective 2.851750902e-06
+0 MIP simplex iterations
+0 branch-and-bound nodes
+#execute	0.03125		21223696	140156152
+### TD_main.run:27(1049)   option ...
+### TD_main.run:28(1077)   option ...
+solve_result = solved
+
+solve_result_num = 2
+
+_solve_elapsed_time = 4.656
+
